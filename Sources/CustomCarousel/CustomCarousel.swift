@@ -31,7 +31,7 @@ public struct SnapCarousel<Content: View, T: Identifiable>: View {
             let midOffset = currentIndex > 0 ? spacing : 0
             let width = proxy.size.width - trailingSpace + spacing
             
-            LazyHStack(spacing: spacing) {
+            HStack(spacing: spacing) {
                 ForEach(list) {
                     item in
                     content(item)
