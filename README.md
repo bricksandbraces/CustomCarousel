@@ -1,3 +1,4 @@
 # CustomCarousel
 
-A description of this package.
+A custom carousel with snapping effect.
+
